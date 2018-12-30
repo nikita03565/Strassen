@@ -1,17 +1,5 @@
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
-
-from optparse import OptionParser
 from math import ceil, log
 import time
-import sys
-#arg1 = sys.argv[1]
-#arg2 = sys.argv[2]
-#aFile = open(arg1, 'r+')
-#bFile = open(arg2, 'r+')
-#aN = int(aFile.readline())
-#bN = int(bFile.readline())
-#LEAF_SIZE = 64
 
 
 def read(inFile, d):
@@ -187,4 +175,3 @@ if __name__ == '__main__':
         t = start(aFile, bFile, aN, bN, 128)
         print(t)
         out.write(str(i) + " " + str(t) + "\n")
-
